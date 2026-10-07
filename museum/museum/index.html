@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Museum &mdash; Computer Graphics Lab (CSE 4204)</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <aside id="hud">
+      <h1>A Museum</h1>
+      <dl>
+        <dt>W A S D</dt><dd>walk</dd>
+        <dt>Q E</dt><dd>turn left / right</dd>
+        <dt>R F</dt><dd>rise / crouch</dd>
+        <dt>drag</dt><dd>look around</dd>
+        <dt>click a painting</dt><dd>change its artwork</dd>
+        <dt>T</dt><dd>change artwork from the keyboard</dd>
+        <dt>C</dt><dd>guided tour on / off</dd>
+        <dt>L</dt><dd>spotlight sweep on / off</dd>
+      </dl>
+      <p id="status">Guided tour is running. Press C to walk on your own.</p>
+    </aside>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
